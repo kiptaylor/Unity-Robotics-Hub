@@ -5126,7 +5126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5773256366622995465, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5773256366622995465, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9608,72 +9608,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &420986983
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 420986986}
-  - component: {fileID: 420986985}
-  - component: {fileID: 420986984}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &420986984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420986983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &420986985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420986983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &420986986
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420986983}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &431611827
 GameObject:
   m_ObjectHideFlags: 8
@@ -9791,6 +9725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43bef545df3e344c4a7e089ca90c15a0, type: 3}
+--- !u!1 &451371862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 850690186460591414, guid: 43bef545df3e344c4a7e089ca90c15a0, type: 3}
+  m_PrefabInstance: {fileID: 451371861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &458167590
 GameObject:
   m_ObjectHideFlags: 8
@@ -22512,6 +22451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3901759e6233748538fffdbc519c1a68, type: 3}
+--- !u!1 &977052745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5601983281253769233, guid: 3901759e6233748538fffdbc519c1a68, type: 3}
+  m_PrefabInstance: {fileID: 977052744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &983307685
 Mesh:
   m_ObjectHideFlags: 0
@@ -23031,9 +22975,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1008107468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bff910a02ea9fa4fa59cc1cc1c8284f, type: 3}
+  m_Script: {fileID: 11500000, guid: f824c51148d7cce47824b5d892bddb6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_TopicName: /niryo_joints
+  m_NiryoOne: {fileID: 1808573332}
+  m_Target: {fileID: 977052745}
+  m_TargetPlacement: {fileID: 451371862}
 --- !u!4 &1008107470
 Transform:
   m_ObjectHideFlags: 0
@@ -23057,9 +23005,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1008107468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b56390200b44b242a291a2053cb3620, type: 3}
+  m_Script: {fileID: 11500000, guid: fdc8c94c70798bd4a804abb5f07d91df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_RosServiceName: niryo_moveit
+  m_NiryoOne: {fileID: 1808573332}
+  m_Target: {fileID: 977052745}
+  m_TargetPlacement: {fileID: 451371862}
 --- !u!1 &1008751976
 GameObject:
   m_ObjectHideFlags: 8
