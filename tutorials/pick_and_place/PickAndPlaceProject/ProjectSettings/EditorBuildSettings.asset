@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Tests/PlayMode/PlayModeTestScenes/TargetPlacementTest.unity
     guid: 3d328f38f71b71e47bb8d96869012ffe
   - enabled: 1
-    path: Assets/Scenes/TutorialScene.unity
+    path: Assets/Scenes/Tutorials/TutorialScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a5dacb0c4e1c53940a50e800c60bc802, type: 2}
